@@ -130,9 +130,17 @@ export const projectsData: Project[] = [
         title: "Option Strategy Visualizer",
         description: "Interactive tool to build and visualize option strategies, compute P&L across underlying prices and time decay, and display results on an interactive graph with payoff and Greeks overlays.",
         technologies: ["TypeScript", "React", "Options Pricing", "P&L Visualization", "Interactive Charts"],
-        status: ProjectStatus.InProgress,
+        status: ProjectStatus.Completed,
         link: "https://github.com/nolanpeterson07/visualize-options",
         category: "Finance",
+    },
+    {
+        title: "ad-hole",
+        description: "A DNS sinkhole for ad and tracker blocking, written in Rust with a web frontend for managing blocklists, viewing query logs, and monitoring DNS statistics.",
+        technologies: ["Rust", "DNS", "Networking", "Web Development", "Tokio", "Ad Blocking"],
+        status: ProjectStatus.InProgress,
+        link: "https://github.com/nolanpeterson07/ad-hole",
+        category: "Software"
     },
 ];
 
