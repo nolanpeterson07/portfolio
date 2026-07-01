@@ -51,7 +51,7 @@ export const projectsData: Project[] = [
         description: "A Rust library for decoding Choreo trajectory files and providing path planning capabilities for FRC robots.",
         technologies: ["Rust", "Path Planning", "Spline Generation", "Motion Profiling", "Mathematics"],
         status: ProjectStatus.Completed,
-        link: "https://github.com/Sha-dos/trajectory-rs",
+        link: "https://github.com/nolanpeterson07/trajectory-rs",
         category: "Robotics"
     },
     {
@@ -59,7 +59,7 @@ export const projectsData: Project[] = [
         description: "A C++ simulation of the Left Center Right dice game, demonstrating object-oriented programming principles and game state management with statistical features.",
         technologies: ["C++", "Object-Oriented Programming", "Game Simulation", "Statistical Analysis"],
         status: ProjectStatus.Completed,
-        link: "https://github.com/Sha-dos/lcr",
+        link: "https://github.com/nolanpeterson07/lcr",
         category: "Software"
     },
     {
@@ -67,7 +67,7 @@ export const projectsData: Project[] = [
         description: "A web-based scouting application for FRC teams, built with NextJS and TypeScript, providing data collection and analysis during competitions.",
         technologies: ["NextJS", "TypeScript", "Web Development", "Firebase"],
         status: ProjectStatus.Completed,
-        link: "https://github.com/Sha-dos/scouting2024",
+        link: "https://github.com/nolanpeterson07/scouting2024",
         category: "Web"
     },
     {
@@ -75,7 +75,7 @@ export const projectsData: Project[] = [
         description: "My personal portfolio website showcasing my projects, skills, and experiences, built with NextJS and shadcn/ui.",
         technologies: ["NextJS", "Typescript", "Web Development"],
         status: ProjectStatus.InProgress,
-        link: "https://github.com/Sha-dos/portfolio",
+        link: "https://github.com/nolanpeterson07/portfolio",
         category: "Web"
     },
     {
@@ -83,7 +83,7 @@ export const projectsData: Project[] = [
         description: "A basic raytracer implemented in Rust, with materials, lighting, and camera controls.",
         technologies: ["Rust", "Computer Graphics", "Math"],
         status: ProjectStatus.Completed,
-        link: "https://github.com/Sha-dos/raytracer",
+        link: "https://github.com/nolanpeterson07/raytracer",
         category: "Software",
     },
     {
@@ -131,7 +131,7 @@ export const projectsData: Project[] = [
         description: "Interactive tool to build and visualize option strategies, compute P&L across underlying prices and time decay, and display results on an interactive graph with payoff and Greeks overlays.",
         technologies: ["TypeScript", "React", "Options Pricing", "P&L Visualization", "Interactive Charts"],
         status: ProjectStatus.InProgress,
-        link: "https://github.com/Sha-dos/visualize-options",
+        link: "https://github.com/nolanpeterson07/visualize-options",
         category: "Finance",
     },
 ];

@@ -78,7 +78,7 @@ const Portfolio = () => {
                   variant="ghost"
                   size="sm"
                   className="text-muted-foreground hover:text-foreground"
-                  onClick={() => window.open('https://github.com/Sha-dos', '_blank')}
+                  onClick={() => window.open('https://github.com/nolanpeterson07', '_blank')}
               >
                 <Github className="w-5 h-5" />
               </Button>
@@ -164,7 +164,7 @@ const Portfolio = () => {
                   variant="ghost"
                   size="sm"
                   className="text-muted-foreground hover:text-foreground"
-                  onClick={() => window.open('https://github.com/Sha-dos', '_blank')}
+                  onClick={() => window.open('https://github.com/nolanpeterson07', '_blank')}
               >
                 <Github className="w-4 h-4 mr-2" />
                 GitHub
