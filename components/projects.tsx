@@ -138,8 +138,16 @@ export const projectsData: Project[] = [
         title: "ad-hole",
         description: "A DNS sinkhole for ad and tracker blocking, written in Rust with a web frontend for managing blocklists, viewing query logs, and monitoring DNS statistics.",
         technologies: ["Rust", "DNS", "Networking", "Web Development", "Tokio", "Ad Blocking"],
-        status: ProjectStatus.InProgress,
+        status: ProjectStatus.Completed,
         link: "https://github.com/nolanpeterson07/ad-hole",
+        category: "Software"
+    },
+    {
+        title: "Euchre",
+        description: "A Rust implementation of the Euchre card game, with game rules, turn-based play, and trick-taking logic.",
+        technologies: ["Rust", "Game Simulation"],
+        status: ProjectStatus.Completed,
+        link: "https://github.com/nolanpeterson07/euchre",
         category: "Software"
     },
 ];
