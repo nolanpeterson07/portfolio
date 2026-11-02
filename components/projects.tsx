@@ -87,14 +87,6 @@ export const projectsData: Project[] = [
         category: "Software",
     },
     {
-        title: "SDM26 Steering Wheel Firmware",
-        description: "Embedded firmware for a Formula SAE steering wheel, with real time display, paddle shift management, and adjustable settings via potentiometers.",
-        technologies: ["Rust", "ESP32", "Embedded Systems", "CAN Bus", "Real-Time Systems", "Hardware Interface"],
-        status: ProjectStatus.InProgress,
-        link: "https://github.com/sundevilmotorsports/sdm26-steering-wheel",
-        category: "FSAE"
-    },
-    {
         title: "ESP32 Timing Gate System",
         description: "Mesh network timing system for Formula SAE vehicles built with ESP32 microcontrollers. Multiple gates coordinate to provide precise lap timing and telemetry data.",
         technologies: ["C", "ESP32", "Embedded Systems", "Mesh Networking", "WiFi", "Real-Time Systems"],
@@ -112,19 +104,35 @@ export const projectsData: Project[] = [
     },
     {
         title: "Logger",
-        description: "Data acquisition logger for Formula SAE vehicles, sampling CAN bus and ADC data to SD card at high frequency. Originally written in C, currently undergoing a full rewrite in C++ with a structured Logger class architecture for improved maintainability and extensibility.",
-        technologies: ["C", "C++", "ESP32", "ESP-IDF", "CAN Bus", "FreeRTOS", "SD Card", "Embedded Systems"],
+        description: "Rust data acquisition firmware for Formula SAE vehicles, logging CAN bus, ADC, IMU and GNSS data to SD card, with USB and serial interfaces, runtime configuration, and firmware updates over CAN.",
+        technologies: ["Rust", "ESP32", "ESP-IDF", "CAN Bus", "SD Card", "USB", "Embedded Systems"],
         status: ProjectStatus.InProgress,
-        link: "https://github.com/sundevilmotorsports/ESP32_Logger",
+        link: "https://github.com/sundevilmotorsports/logger",
         category: "FSAE"
     },
     {
-        title: "ModuleCore FSAE Firmware Base",
-        description: "A shared firmware foundation for all modules, providing a common C++ base with standardized module communication over CAN bus and OTA update support. Designed to run on every node in the vehicle's embedded network.",
-        technologies: ["C++", "ESP32", "ESP-IDF", "CAN Bus", "FreeRTOS", "OTA Updates", "Embedded Systems"],
+        title: "Logger Client",
+        description: "Cross-platform Rust desktop app for the Formula SAE logger: discovers devices over serial, edits configuration, opens a live console, browses logs, and converts them to MoTeC format.",
+        technologies: ["Rust", "Slint", "Serial", "MoTeC", "Desktop App", "Telemetry"],
         status: ProjectStatus.InProgress,
-        link: "https://github.com/sundevilmotorsports/ModuleCore",
+        link: "https://github.com/sundevilmotorsports/logger-client",
         category: "FSAE"
+    },
+    {
+        title: "SDM Utils",
+        description: "Shared C and Rust library defining the Formula SAE vehicle's CAN protocol: node and message IDs, heartbeats, the log file format, and over-the-air firmware update messages, so every node and tool speaks the same language.",
+        technologies: ["Rust", "C", "CAN Bus", "OTA Updates", "Embedded Systems", "Protocol Design"],
+        status: ProjectStatus.InProgress,
+        link: "https://github.com/sundevilmotorsports/sdm-utils",
+        category: "FSAE"
+    },
+    {
+        title: "RISC-V Processor",
+        description: "A RV32IM RISC-V processor written in Verilog with a hardware multiply/divide unit and UART, SPI, SD card and timer peripherals. Runs on a Tang Nano 9K FPGA, with a Rust simulator and C/Rust firmware including FatFs.",
+        technologies: ["Verilog", "SystemVerilog", "RISC-V", "FPGA", "Rust", "C", "Computer Architecture"],
+        status: ProjectStatus.InProgress,
+        link: "https://github.com/nolanpeterson07/riscv",
+        category: "Hardware"
     },
     {
         title: "Option Strategy Visualizer",
